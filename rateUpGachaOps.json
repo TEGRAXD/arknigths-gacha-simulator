@@ -1,0 +1,9 @@
+{
+  "superRare": [
+    { "name": "Grain Buds", "boostChance": 0.5 },
+    { "name": "Lucilla", "boostChance": 0.5 }
+  ],
+  "ultraRare": [
+    { "name": "Ulpianus", "boostChance": 0.5 }
+  ]
+}
