@@ -13,3 +13,10 @@
 
 5. **Enjoy:**
    - Now that everything is set up, relax and enjoy the experience!
+
+
+Here’s an updated version with a link to use GitHub Pages:
+
+---
+
+or just use this [arknigths-gacha-simulator]([https://pages.github.com/](https://biji-seed.github.io/arknigths-gacha-simulator/)).
