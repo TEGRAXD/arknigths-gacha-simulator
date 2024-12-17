@@ -18,3 +18,7 @@
 ---
 
 or just use this [arknigths-gacha-simulator](https://biji-seed.github.io/arknigths-gacha-simulator/).
+
+---
+
+if you are having trouble running it locally, this might help you [stackoverflow](https://stackoverflow.com/questions/20748630/load-local-javascript-file-in-chrome-for-testing#:~:text=For%20security%20reasons%2C%20modern%20browsers%20won%27t%20load%20resource,files%20is%20to%20run%20a%20local%20web%20server).
