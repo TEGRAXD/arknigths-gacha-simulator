@@ -1,9 +1,78 @@
 {
-  "superRare": [
-    { "name": "Grain Buds", "boostChance": 0.5 },
-    { "name": "Lucilla", "boostChance": 0.5 }
-  ],
-  "ultraRare": [
-    { "name": "Ulpianus", "boostChance": 0.5 }
-  ]
+  "standard": {
+    "superRare": [
+      { "name": "Windflit", "boostChance": 0.5 },
+      { "name": "Proviso", "boostChance": 0.5 },
+      { "name": "Melanite", "boostChance": 0.5 }
+    ],
+
+    "ultraRare": [
+      { "name": "Penance", "boostChance": 0.5 },
+      { "name": "Mizuki", "boostChance": 0.5 }
+    ]
+  },
+
+  "kernel": {
+    "superRare": [
+      { "name": "Istina", "boostChance": 0.5 },
+      { "name": "Provence", "boostChance": 0.5 },
+      { "name": "Warfarin", "boostChance": 0.5 }
+    ],
+
+    "ultraRare": [
+      { "name": "Pallas", "boostChance": 0.5 },
+      { "name": "Mudrock", "boostChance": 0.5 }
+    ]
+  },
+
+  "clearLikeHearts": {
+    "superRare": [{ "name": "Mitm", "boostChance": 0.5 }],
+
+    "ultraRare": [{ "name": "Nymph", "boostChance": 0.5 }]
+  },
+
+  "terranFood": {
+    "superRare": [
+      { "name": "Chilchuck", "boostChance": 0.5 },
+      { "name": "Laios", "boostChance": 0.5 }
+    ],
+
+    "ultraRare": [{ "name": "Marcille", "boostChance": 0.5 }]
+  },
+
+  "clankLiberty": {
+    "superRare": [
+      { "name": "Wind Chimes", "boostChance": 0.5 },
+      { "name": "Almond", "boostChance": 0.5 }
+    ],
+
+    "ultraRare": [{ "name": "Jessica the Liberated", "boostChance": 0.5 }]
+  },
+
+  "neverGilded": {
+    "superRare": [
+      { "name": "Bobbing", "boostChance": 0.5 },
+      { "name": "Bassline", "boostChance": 0.5 }
+    ],
+    "ultraRare": [{ "name": "Vina Victoria", "boostChance": 0.5 }]
+  },
+
+  "weMischievousFew": {
+    "superRare": [{ "name": "Figurino", "boostChance": 0.5 }],
+    "ultraRare": [
+      { "name": "Lappland the Decadenza", "boostChance": 0.5 },
+      { "name": "Muelsyse", "boostChance": 0.5 },
+      { "name": "Texas the Omertosa", "boostChance": 0.5 },
+      { "name": "Virtuosa", "boostChance": 0.5 },
+      { "name": "Vulpisfoglia", "boostChance": 0.5 }
+    ]
+  },
+
+  "ccc": {
+    "superRare": [
+      { "name": "Almond", "boostChance": 0.5 },
+      { "name": "Tecno", "boostChance": 0.5 }
+    ],
+    "ultraRare": [{ "name": "Thorns the Lodestar", "boostChance": 0.5 }]
+  }
 }
