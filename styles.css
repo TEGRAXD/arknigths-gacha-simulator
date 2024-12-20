@@ -17,6 +17,16 @@ body {
   text-align: center;
 }
 
+#bannerSelector {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  background-color: #2e2e2e;
+  color: #fff;
+}
+
 .button-group {
   margin-bottom: 20px;
 }
