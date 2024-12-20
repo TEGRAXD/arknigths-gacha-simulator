@@ -1,6 +1,676 @@
 {
+  "standard": {
     "superRare": [
+      {
+        "name": "Almond",
+        "class": "Specialist"
+      },
+      {
+        "name": "Aroma",
+        "class": "Caster"
+      },
+      {
+        "name": "Ashlock",
+        "class": "Defender"
+      },
+      {
+        "name": "Aurora",
+        "class": "Defender"
+      },
+      {
+        "name": "Bassline",
+        "class": "Defender"
+      },
+      {
+        "name": "Blacknight",
+        "class": "Vanguard"
+      },
+      {
+        "name": "Cantabile",
+        "class": "Vanguard"
+      },
+      {
+        "name": "Cement",
+        "class": "Defender"
+      },
+      {
+        "name": "Corroserum",
+        "class": "Caster"
+      },
+      {
+        "name": "Fang the Fire-sharpened",
+        "class": "Vanguard"
+      },
+      {
+        "name": "Firewhistle",
+        "class": "Defender"
+      },
+      {
+        "name": "Grain Buds",
+        "class": "Supporter"
+      },
+      {
+        "name": "Greyy the Lightningbearer",
+        "class": "Sniper"
+      },
+      {
+        "name": "Harmonie",
+        "class": "Caster"
+      },
+      {
+        "name": "Hibiscus the Purifier",
+        "class": "Medic"
+      },
+      {
+        "name": "Kazemaru",
+        "class": "Specialist"
+      },
+      {
+        "name": "La Pluma",
+        "class": "Guard"
+      },
+      {
+        "name": "Leto",
+        "class": "Guard"
+      },
+      {
+        "name": "Lucilla",
+        "class": "Supporter"
+      },
+      {
+        "name": "Lunacub",
+        "class": "Sniper"
+      },
+      {
+        "name": "Melanite",
+        "class": "Sniper"
+      },
+      {
+        "name": "Mulberry",
+        "class": "Medic"
+      },
+      {
+        "name": "Paprika",
+        "class": "Medic"
+      },
+      {
+        "name": "Poncirus",
+        "class": "Vanguard"
+      },
+      {
+        "name": "Proviso",
+        "class": "Supporter"
+      },
+      {
+        "name": "Quercus",
+        "class": "Supporter"
+      },
+      {
+        "name": "Rockrock",
+        "class": "Caster"
+      },
+      {
+        "name": "Santalla",
+        "class": "Caster"
+      },
+      {
+        "name": "Spuria",
+        "class": "Specialist"
+      },
+      {
+        "name": "Vendela",
+        "class": "Medic"
+      },
+      {
+        "name": "Warmy",
+        "class": "Caster"
+      },
+      {
+        "name": "Wind Chimes",
+        "class": "Guard"
+      },
+      {
+        "name": "Windflit",
+        "class": "Supporter"
+      }
     ],
     "ultraRare": [
+      {
+        "name": "Ascalon",
+        "class": "Specialist"
+      },
+      {
+        "name": "Degenbrecher",
+        "class": "Guard"
+      },
+      {
+        "name": "Dorothy",
+        "class": "Specialist"
+      },
+      {
+        "name": "Ebenholz",
+        "class": "Caster"
+      },
+      {
+        "name": "Executor the Ex Foedere",
+        "class": "Guard"
+      },
+      {
+        "name": "Fartooth",
+        "class": "Sniper"
+      },
+      {
+        "name": "Fiammetta",
+        "class": "Sniper"
+      },
+      {
+        "name": "Flametail",
+        "class": "Vanguard"
+      },
+      {
+        "name": "Gnosis",
+        "class": "Supporter"
+      },
+      {
+        "name": "Goldenglow",
+        "class": "Caster"
+      },
+      {
+        "name": "Hoederer",
+        "class": "Guard"
+      },
+      {
+        "name": "Horn",
+        "class": "Defender"
+      },
+      {
+        "name": "Ines",
+        "class": "Vanguard"
+      },
+      {
+        "name": "Irene",
+        "class": "Guard"
+      },
+      {
+        "name": "Jessica the Liberated",
+        "class": "Defender"
+      },
+      {
+        "name": "Lee",
+        "class": "Specialist"
+      },
+      {
+        "name": "Lin",
+        "class": "Caster"
+      },
+      {
+        "name": "Logos",
+        "class": "Caster"
+      },
+      {
+        "name": "Mizuki",
+        "class": "Specialist"
+      },
+      {
+        "name": "Młynar",
+        "class": "Guard"
+      },
+      {
+        "name": "Penance",
+        "class": "Defender"
+      },
+      {
+        "name": "Pozëmka",
+        "class": "Sniper"
+      },
+      {
+        "name": "Qiubai",
+        "class": "Guard"
+      },
+      {
+        "name": "Ray",
+        "class": "Sniper"
+      },
+      {
+        "name": "Reed the Flame Shadow",
+        "class": "Medic"
+      },
+      {
+        "name": "Saileach",
+        "class": "Vanguard"
+      },
+      {
+        "name": "Stainless",
+        "class": "Supporter"
+      },
+      {
+        "name": "Swire the Elegant Wit",
+        "class": "Specialist"
+      },
+      {
+        "name": "Typhon",
+        "class": "Sniper"
+      },
+      {
+        "name": "Ulpianus",
+        "class": "Guard"
+      },
+      {
+        "name": "Viviana",
+        "class": "Guard"
+      },
+      {
+        "name": "Zuo Le",
+        "class": "Guard"
+      }
     ]
+  },
+
+  "kernel": {
+    "superRare": [
+      {
+        "name": "Akafuyu",
+        "class": "Guard"
+      },
+      {
+        "name": "Andreana",
+        "class": "Sniper"
+      },
+      {
+        "name": "Aosta",
+        "class": "Sniper"
+      },
+      {
+        "name": "April",
+        "class": "Sniper"
+      },
+      {
+        "name": "Asbestos",
+        "class": "Defender"
+      },
+      {
+        "name": "Astesia",
+        "class": "Guard"
+      },
+      {
+        "name": "Ayerscarpe",
+        "class": "Guard"
+      },
+      {
+        "name": "Beeswax",
+        "class": "Caster"
+      },
+      {
+        "name": "Blue Poison",
+        "class": "Sniper"
+      },
+      {
+        "name": "Broca",
+        "class": "Guard"
+      },
+      {
+        "name": "Chiave",
+        "class": "Vanguard"
+      },
+      {
+        "name": "Cliffheart",
+        "class": "Specialist"
+      },
+      {
+        "name": "Croissant",
+        "class": "Defender"
+      },
+      {
+        "name": "Elysium",
+        "class": "Vanguard"
+      },
+      {
+        "name": "Executor",
+        "class": "Sniper"
+      },
+      {
+        "name": "FEater",
+        "class": "Specialist"
+      },
+      {
+        "name": "Firewatch",
+        "class": "Sniper"
+      },
+      {
+        "name": "Flint",
+        "class": "Guard"
+      },
+      {
+        "name": "Franka",
+        "class": "Guard"
+      },
+      {
+        "name": "Glaucus",
+        "class": "Supporter"
+      },
+      {
+        "name": "GreyThroat",
+        "class": "Sniper"
+      },
+      {
+        "name": "Hung",
+        "class": "Defender"
+      },
+      {
+        "name": "Iris",
+        "class": "Caster"
+      },
+      {
+        "name": "Istina",
+        "class": "Supporter"
+      },
+      {
+        "name": "Kafka",
+        "class": "Specialist"
+      },
+      {
+        "name": "Kirara",
+        "class": "Specialist"
+      },
+      {
+        "name": "Lappland",
+        "class": "Guard"
+      },
+      {
+        "name": "Leizi",
+        "class": "Caster"
+      },
+      {
+        "name": "Leonhardt",
+        "class": "Caster"
+      },
+      {
+        "name": "Liskarm",
+        "class": "Defender"
+      },
+      {
+        "name": "Manticore",
+        "class": "Specialist"
+      },
+      {
+        "name": "Mayer",
+        "class": "Supporter"
+      },
+      {
+        "name": "Meteorite",
+        "class": "Sniper"
+      },
+      {
+        "name": "Mr. Nothing",
+        "class": "Specialist"
+      },
+      {
+        "name": "Nearl",
+        "class": "Defender"
+      },
+      {
+        "name": "Nightmare",
+        "class": "Caster"
+      },
+      {
+        "name": "Platinum",
+        "class": "Sniper"
+      },
+      {
+        "name": "Pramanix",
+        "class": "Supporter"
+      },
+      {
+        "name": "Projekt Red",
+        "class": "Specialist"
+      },
+      {
+        "name": "Provence",
+        "class": "Sniper"
+      },
+      {
+        "name": "Ptilopsis",
+        "class": "Medic"
+      },
+      {
+        "name": "Reed",
+        "class": "Vanguard"
+      },
+      {
+        "name": "Sesa",
+        "class": "Sniper"
+      },
+      {
+        "name": "Shamare",
+        "class": "Supporter"
+      },
+      {
+        "name": "Silence",
+        "class": "Medic"
+      },
+      {
+        "name": "Skyfire",
+        "class": "Caster"
+      },
+      {
+        "name": "Sora",
+        "class": "Supporter"
+      },
+      {
+        "name": "Specter",
+        "class": "Guard"
+      },
+      {
+        "name": "Swire",
+        "class": "Guard"
+      },
+      {
+        "name": "Texas",
+        "class": "Vanguard"
+      },
+      {
+        "name": "Toddifons",
+        "class": "Sniper"
+      },
+      {
+        "name": "Tsukinogi",
+        "class": "Supporter"
+      },
+      {
+        "name": "Waai Fu",
+        "class": "Specialist"
+      },
+      {
+        "name": "Warfarin",
+        "class": "Medic"
+      },
+      {
+        "name": "Whisperain",
+        "class": "Medic"
+      },
+      {
+        "name": "Zima",
+        "class": "Vanguard"
+      }
+    ],
+    "ultraRare": [
+      {
+        "name": "Aak",
+        "class": "Specialist"
+      },
+      {
+        "name": "Angelina",
+        "class": "Supporter"
+      },
+      {
+        "name": "Archetto",
+        "class": "Sniper"
+      },
+      {
+        "name": "Bagpipe",
+        "class": "Vanguard"
+      },
+      {
+        "name": "Blaze",
+        "class": "Guard"
+      },
+      {
+        "name": "Blemishine",
+        "class": "Defender"
+      },
+      {
+        "name": "Carnelian",
+        "class": "Caster"
+      },
+      {
+        "name": "Ceobe",
+        "class": "Caster"
+      },
+      {
+        "name": "Eunectes",
+        "class": "Defender"
+      },
+      {
+        "name": "Exusiai",
+        "class": "Sniper"
+      },
+      {
+        "name": "Eyjafjalla",
+        "class": "Caster"
+      },
+      {
+        "name": "Hellagur",
+        "class": "Guard"
+      },
+      {
+        "name": "Hoshiguma",
+        "class": "Defender"
+      },
+      {
+        "name": "Ifrit",
+        "class": "Caster"
+      },
+      {
+        "name": "Magallan",
+        "class": "Supporter"
+      },
+      {
+        "name": "Mostima",
+        "class": "Caster"
+      },
+      {
+        "name": "Mountain",
+        "class": "Guard"
+      },
+      {
+        "name": "Mudrock",
+        "class": "Defender"
+      },
+      {
+        "name": "Nightingale",
+        "class": "Medic"
+      },
+      {
+        "name": "Pallas",
+        "class": "Guard"
+      },
+      {
+        "name": "Passenger",
+        "class": "Caster"
+      },
+      {
+        "name": "Phantom",
+        "class": "Specialist"
+      },
+      {
+        "name": "Rosa",
+        "class": "Sniper"
+      },
+      {
+        "name": "Saga",
+        "class": "Vanguard"
+      },
+      {
+        "name": "Saria",
+        "class": "Defender"
+      },
+      {
+        "name": "Schwarz",
+        "class": "Sniper"
+      },
+      {
+        "name": "Shining",
+        "class": "Medic"
+      },
+      {
+        "name": "Siege",
+        "class": "Vanguard"
+      },
+      {
+        "name": "SilverAsh",
+        "class": "Guard"
+      },
+      {
+        "name": "Skadi",
+        "class": "Guard"
+      },
+      {
+        "name": "Surtr",
+        "class": "Guard"
+      },
+      {
+        "name": "Suzuran",
+        "class": "Supporter"
+      },
+      {
+        "name": "Thorns",
+        "class": "Guard"
+      },
+      {
+        "name": "Weedy",
+        "class": "Specialist"
+      }
+    ]
+  },
+
+  "clearLikeHearts": {
+    "superRare": [{ "name": "Mitm", "class": "Vanguard" }],
+    "ultraRare": [{ "name": "Nymph", "class": "Caster" }]
+  },
+
+  "terranFood": {
+    "superRare": [
+      { "name": "Chilchuck", "class": "Vanguard" },
+      { "name": "Laios", "class": "Guard" }
+    ],
+
+    "ultraRare": [{ "name": "Marcille", "class": "Caster" }]
+  },
+
+  "neverGilded": {
+    "superRare": [
+      { "name": "Bobbing", "class": "Supporter" },
+      { "name": "Bassline", "class": "Defender" }
+    ],
+    "ultraRare": [{ "name": "Vina Victoria", "class": "Guard" }]
+  },
+
+  "weMischievousFew": {
+    "superRare": [{ "name": "Figurino", "class": "Specialist" }],
+    "ultraRare": [
+      { "name": "Lappland the Decadenza", "class": "Caster" },
+      { "name": "Muelsyse", "class": "Vanguard" },
+      { "name": "Texas the Omertosa", "class": "Specialist" },
+      { "name": "Virtuosa", "class": "Supporter" },
+      { "name": "Vulpisfoglia", "class": "Vanguard" }
+    ]
+  },
+
+  "ccc": {
+    "superRare": [
+      { "name": "Almond", "class": "Specialist" },
+      { "name": "Tecno", "class": "Caster" }
+    ],
+    "ultraRare": [{ "name": "Thorns the Lodestar", "class": "Specialist" }]
+  }
 }
