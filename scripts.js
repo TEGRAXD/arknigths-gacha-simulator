@@ -15,43 +15,73 @@ let rateUpOperator = {};
 let totalRolls = 0;
 
 // Function to load and merge all JSON files, including rateUpGachaOps
-async function loadData() {
+async function loadData(selectedBanner, additional) {
   try {
-    // Load main gacha files
     const fetchPromises = jsonFiles.map((file) =>
       fetch(file).then((response) => response.json())
     );
 
-    // Also load rateUpGachaOps.json
     fetchPromises.push(
       fetch("rateUpGachaOps.json").then((response) => response.json())
     );
 
-    // Wait for all fetches to complete
     const jsonDataArray = await Promise.all(fetchPromises);
 
-    // Process main gacha files
-    jsonDataArray.slice(0, jsonFiles.length).forEach((data) => {
-      Object.keys(data).forEach((rarity) => {
-        if (!gachaOps[rarity]) {
-          gachaOps[rarity] = []; // Initialize category if it doesn't exist
-        }
-        gachaOps[rarity] = gachaOps[rarity].concat(data[rarity]); // Merge items
-      });
+    // Reset previous data
+    gachaOps = {};
+    rateUpOperator = {};
+
+    // Load default GachaOps
+    const defaultGachaOps = jsonDataArray[0];
+    Object.keys(defaultGachaOps).forEach((rarity) => {
+      if (!gachaOps[rarity]) gachaOps[rarity] = [];
+      gachaOps[rarity] = gachaOps[rarity].concat(defaultGachaOps[rarity]);
     });
 
-    // Assign rate-up data (last item in jsonDataArray) to rateUpOperator
-    rateUpOperator = jsonDataArray[jsonDataArray.length - 1];
+    // Load selected banner data
+    const bannerData = jsonDataArray[1];
+    if (bannerData[selectedBanner]) {
+      Object.keys(bannerData[selectedBanner]).forEach((rarity) => {
+        if (!gachaOps[rarity]) gachaOps[rarity] = [];
+        gachaOps[rarity] = gachaOps[rarity].concat(bannerData[selectedBanner][rarity]);
+      });
+    }
 
-    console.log("Gacha ops Loaded Successfully:", gachaOps);
-    console.log("RateUp ops Loaded Successfully:", rateUpOperator);
+    // Modify data based on `additional` if applicable
+    if (additional && bannerData[additional]) {
+      Object.keys(bannerData[additional]).forEach((rarity) => {
+        if (!gachaOps[rarity]) gachaOps[rarity] = [];
+        gachaOps[rarity] = gachaOps[rarity].concat(bannerData[additional][rarity]);
+      });
+    }
+
+    // Load rate-up data
+    const rateUpData = jsonDataArray[2];
+    if(additional){
+      if (rateUpData[additional]) {
+        rateUpOperator = rateUpData[additional];
+      }
+    } else {
+      if (rateUpData[selectedBanner]) {
+        rateUpOperator = rateUpData[selectedBanner];
+      }
+    }
+    
+
+    console.log(`Loaded data for ${selectedBanner} (${additional}):`, {
+      gachaOps,
+      rateUpOperator,
+    });
   } catch (error) {
-    console.error("Error loading gacha ops:", error);
+    console.error("Error loading data:", error);
   }
 }
 
 // Call the function to load items
-loadData();
+document.getElementById("bannerSelector").addEventListener("change", (event) => {
+  const [selectedBanner, additional] = event.target.value.split(",");
+  loadData(selectedBanner, additional);
+});
 
 // Define default count for each rarity
 const rarityCounts = {
@@ -286,10 +316,26 @@ function getOperatorClass(operatorName, rarity) {
   return foundOps ? foundOps.class : "Unknown";
 }
 
+// Function to validate banner selection before rolling
+function validateSelection(callback) {
+  const bannerSelector = document.getElementById("bannerSelector").value;
+
+  if (!bannerSelector) {
+    alert("Please select a banner before rolling!");
+    return;
+  }
+
+  // If a banner is selected, proceed to the respective roll function
+  callback(bannerSelector);
+}
+
 // Event listeners for the roll buttons
 document
   .getElementById("singleRollButton")
-  .addEventListener("click", singleRoll);
-document.getElementById("batchRollButton").addEventListener("click", batchRoll);
+  .addEventListener("click", () => validateSelection(singleRoll));
+document
+  .getElementById("batchRollButton")
+  .addEventListener("click", () => validateSelection(batchRoll));
+
 
 displayCounts();
