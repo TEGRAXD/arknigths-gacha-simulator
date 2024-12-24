@@ -25,6 +25,17 @@
     ]
   },
 
+  "ae": {
+    "superRare": [
+      { "name": "Cantabile", "boostChance": 0.5 },
+      { "name": "Spuria", "boostChance": 0.5 }
+    ],
+
+    "ultraRare": [
+      { "name": "Executor the Ex Foedere", "boostChance": 0.5 }
+    ]
+  },
+
   "clearLikeHearts": {
     "superRare": [{ "name": "Mitm", "boostChance": 0.5 }],
 
