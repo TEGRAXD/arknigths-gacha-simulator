@@ -1,14 +1,14 @@
 {
   "standard": {
     "superRare": [
-      { "name": "Windflit", "boostChance": 0.5 },
-      { "name": "Proviso", "boostChance": 0.5 },
-      { "name": "Melanite", "boostChance": 0.5 }
+      { "name": "Quercus", "boostChance": 0.5 },
+      { "name": "Corroserum", "boostChance": 0.5 },
+      { "name": "Bassline", "boostChance": 0.5 }
     ],
 
     "ultraRare": [
-      { "name": "Penance", "boostChance": 0.5 },
-      { "name": "Mizuki", "boostChance": 0.5 }
+      { "name": "Lee", "boostChance": 0.5 },
+      { "name": "Goldenglow", "boostChance": 0.5 }
     ]
   },
 
