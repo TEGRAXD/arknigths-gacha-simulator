@@ -21,4 +21,4 @@ if you are having trouble running it locally, this might help you [stackoverflow
 
 ---
 
-or just use this [arknigths-gacha-simulator](https://biji-seed.github.io/arknigths-gacha-simulator/).
+or just use this [arknigths-gacha-simulator](https://biji0.github.io/arknigths-gacha-simulator/).
