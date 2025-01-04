@@ -1,27 +1,27 @@
 {
   "standard": {
     "superRare": [
-      { "name": "Quercus", "boostChance": 0.5 },
-      { "name": "Corroserum", "boostChance": 0.5 },
-      { "name": "Bassline", "boostChance": 0.5 }
+      { "name": "Wind Chimes", "boostChance": 0.5 },
+      { "name": "Paprika", "boostChance": 0.5 },
+      { "name": "Hibiscus the Purifier", "boostChance": 0.5 }
     ],
 
     "ultraRare": [
-      { "name": "Lee", "boostChance": 0.5 },
-      { "name": "Goldenglow", "boostChance": 0.5 }
+      { "name": "Rey", "boostChance": 0.5 },
+      { "name": "Pozëmka", "boostChance": 0.5 }
     ]
   },
 
   "kernel": {
     "superRare": [
-      { "name": "Istina", "boostChance": 0.5 },
-      { "name": "Provence", "boostChance": 0.5 },
-      { "name": "Warfarin", "boostChance": 0.5 }
+      { "name": "Cliffheart", "boostChance": 0.5 },
+      { "name": "Franka", "boostChance": 0.5 },
+      { "name": "Sora", "boostChance": 0.5 }
     ],
 
     "ultraRare": [
-      { "name": "Pallas", "boostChance": 0.5 },
-      { "name": "Mudrock", "boostChance": 0.5 }
+      { "name": "Hoshiguma", "boostChance": 0.5 },
+      { "name": "Blaze", "boostChance": 0.5 }
     ]
   },
 
