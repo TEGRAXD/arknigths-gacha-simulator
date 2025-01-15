@@ -7,21 +7,21 @@
     ],
 
     "ultraRare": [
-      { "name": "Rey", "boostChance": 0.5 },
+      { "name": "Ray", "boostChance": 0.5 },
       { "name": "Pozëmka", "boostChance": 0.5 }
     ]
   },
 
   "kernel": {
     "superRare": [
-      { "name": "Cliffheart", "boostChance": 0.5 },
-      { "name": "Franka", "boostChance": 0.5 },
-      { "name": "Sora", "boostChance": 0.5 }
+      { "name": "Ptilopsis", "boostChance": 0.5 },
+      { "name": "Specter", "boostChance": 0.5 },
+      { "name": "Texas", "boostChance": 0.5 }
     ],
 
     "ultraRare": [
-      { "name": "Hoshiguma", "boostChance": 0.5 },
-      { "name": "Blaze", "boostChance": 0.5 }
+      { "name": "Suzuran", "boostChance": 0.5 },
+      { "name": "Bagpipe", "boostChance": 0.5 }
     ]
   },
 
