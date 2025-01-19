@@ -132,6 +132,10 @@
       {
         "name": "Windflit",
         "class": "Supporter"
+      },
+      {
+        "name": "Sand Reckoner",
+        "class": "Supporter"
       }
     ],
     "ultraRare": [
@@ -262,6 +266,10 @@
       {
         "name": "Zuo Le",
         "class": "Guard"
+      },
+      {
+        "name": "Narantuya",
+        "class": "Sniper"
       }
     ]
   },
