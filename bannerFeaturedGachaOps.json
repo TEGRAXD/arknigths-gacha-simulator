@@ -684,7 +684,7 @@
 
   "pepe": {
     "ultraRare": [
-      { "name": "Pepe", "class": "Specialist" },
+      { "name": "Pepe", "class": "Guard" },
       { "name": "Chen the Holungday", "class": "Sniper" },
       { "name": "Eyjafjalla the Hvít Aska", "class": "Medic" },
       { "name": "Gavial the Invincible", "class": "Guard" }
