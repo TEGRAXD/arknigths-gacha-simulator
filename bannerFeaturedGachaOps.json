@@ -680,5 +680,14 @@
       { "name": "Tecno", "class": "Caster" }
     ],
     "ultraRare": [{ "name": "Thorns the Lodestar", "class": "Specialist" }]
+  },
+
+  "ccc": {
+    "ultraRare": [
+      { "name": "Pepe", "class": "Specialist" },
+      { "name": "Chen the Holungday", "class": "Sniper" },
+      { "name": "Eyjafjalla the Hvít Aska", "class": "Medic" },
+      { "name": "Gavial the Invincible", "class": "Guard" }
+    ]
   }
 }
