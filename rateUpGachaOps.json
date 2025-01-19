@@ -80,7 +80,6 @@
     "superRare": [
       { "name": "Sand Reckoner", "boostChance": 0.5 }
     ],
-
     "ultraRare": [
       { "name": "Pepe", "boostChance": 0.7 },
       { "name": "Narantuya", "boostChance": 0.7 },
@@ -88,5 +87,5 @@
       { "name": "Eyjafjalla the Hvít Aska", "boostChance": 0.3 },
       { "name": "Gavial the Invincible", "boostChance": 0.3 }
     ]
-  },
+  }
 }
