@@ -25,17 +25,6 @@
     ]
   },
 
-  "ae": {
-    "superRare": [
-      { "name": "Cantabile", "boostChance": 0.5 },
-      { "name": "Spuria", "boostChance": 0.5 }
-    ],
-
-    "ultraRare": [
-      { "name": "Executor the Ex Foedere", "boostChance": 0.5 }
-    ]
-  },
-
   "clearLikeHearts": {
     "superRare": [{ "name": "Mitm", "boostChance": 0.5 }],
 
@@ -85,5 +74,19 @@
       { "name": "Tecno", "boostChance": 0.5 }
     ],
     "ultraRare": [{ "name": "Thorns the Lodestar", "boostChance": 0.5 }]
-  }
+  },
+
+  "pepe": {
+    "superRare": [
+      { "name": "Sand Reckoner", "boostChance": 0.5 }
+    ],
+
+    "ultraRare": [
+      { "name": "Pepe", "boostChance": 0.7 },
+      { "name": "Narantuya", "boostChance": 0.7 },
+      { "name": "Chen the Holungday", "boostChance": 0.3 },
+      { "name": "Eyjafjalla the Hvít Aska", "boostChance": 0.3 },
+      { "name": "Gavial the Invincible", "boostChance": 0.3 }
+    ]
+  },
 }
